@@ -14,7 +14,7 @@ body{
     align-items: center; /* Center vertically */
     font-size: 48px;
     font-weight: bold;
-    background: linear-gradient(45deg, #ff6b6b, #ff9f43, #1dd1a1, #54a0ff);
+    background: linear-gradient(45deg, #274159, #4854a0, #43a5f6, #94d9f4);
     background-clip: text;
     color: transparent;
     text-align: center;
@@ -25,10 +25,7 @@ body{
 
 
 .container {
-    align-items: center; /* Center vertically */
-    max-height: 500px; /* Full viewport height */
-    width: 100%;
-    max-width: 400px; /* Fixed width */
+    max-width: 100%; /* Fixed width */
 }
 
 .calculator{
@@ -47,8 +44,12 @@ body{
     display: flex;
     border-radius: 5px;
     width: 445px;
-    height: 30px;
+    height: 35px;
     margin-bottom: 10px;
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
 }
 
 .btn{
