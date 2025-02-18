@@ -23,6 +23,12 @@ body{
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
+@media (max-width: 600px) { /* When the screen is small */
+    .name {
+      font-size: 30px;
+      display: block;
+    }
+  }
 
 .container {
     max-width: 100%; /* Fixed width */
@@ -35,7 +41,6 @@ body{
     padding: 20px;
     width: 450px;
     height:  300px;
-    backdrop-filter: blur(15px);
     flex-direction: column;
 }
 
@@ -57,12 +62,16 @@ body{
     height: 55px;
     margin: 5px;
     border-radius: 10px;
+    font-size: 35px;
 }
 
 .btn:hover {
     background-color: rgb(148, 148, 248);
+    transform: translateY(-2px);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0);
 }
 
 .btn:active {
     background-color: rgb(158, 248, 148);
+    box-shadow: 1px 1px 4px rgb(47, 245, 24);
 }
